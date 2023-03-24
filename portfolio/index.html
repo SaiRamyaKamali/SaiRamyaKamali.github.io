@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e6227c4fca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand nav-top" href="#">B.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#">
+                    Home
+                    <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-link" id="nav-link-text-1" href="#about-me-section">About me</a>
+                <a class="nav-link" id="nav-link-text-2" href="#skill-section">Skills</a>
+                <a class="nav-link" id="nav-link-text-3" href="#project-section">Projects</a>
+                <a class="nav-link" id="nav-link-text-3" href="#experience-section">Experience</a>
+                <a class="nav-link" id="nav-link-text-4" href="#footer-section">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex flex-column justify-content-center" id="banner-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 order-md-2">
+                    <img src="images/Ramya_pro_pic.jpeg" class="banner-section-profile-image" />
+                </div>
+                <div class="col-12 col-md-8">
+                    <h1 class="banner-section-profile-heading">Hey there! I am <span class="banner-section-profile-name">Ramya</span></h1>
+                    <P class="banner-section-profile-para">- a Graduate student at Texas A&M University pursuing Masters in Computer Science</P>
+                    <P class="banner-section-profile-para">I am an Aspiring Full Stack Developer proficient in HTML,CSS,Javascript and React</P>
+                    <button class="banner-section-profile-button mr-3" id="contact-me" onclick="location.href='#footer-section'">Contact me</button>
+                    <button class="banner-section-profile-button" id="Resume" onclick="window.open('https://drive.google.com/file/d/1YZ4mf2BfP2iRAffYlW2Auqt_1yRA_Jxa/view?usp=sharing')">Resume</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-me-section-bg-container pt-4" id="about-me-section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 col-md-8 order-md-2">
+                    <p class="about-me-section-sub-heading">Facts</p>
+                    <h1 class="about-me-section-heading">About me</h1>
+                    <img src="images/Ramya.jpeg" class="about-me-section-image d-md-none" />
+
+                    <p class="about-me-section-content pt-3">We live in an environment in which technology innovates every day. I am a continuous learner and always strive to build my skills on changing and emerging technologies. I am very adaptable, flexible, and trustworthy. When it comes to working, I am very dedicated and hardworking. I have finished my Bachelor's in India and I am currently pursuing my master's in computer science at Texas A&M University, college station. I am currently working as a web developer here.
+                        <br /><br />My curriculum comprised courses like Machine learning, Deep learning, Analysis of Algorithms, Data mining and analysis, Software Engineering, parallel computing, and Operating Systems. All these courses helped me to gain profound knowledge in the field of Computer Science. I'm glad I have been able to apply the concepts I learned in my classes in real-life situations. As part of the course curriculum, I have worked on several projects. I have built a machine learning model to estimate one's public speaking anxiety from biobehavioral data. Also, as a part of Data mining and analysis, I have used word-2-vec embeddings to analyze Twitter data. Also, I've built an interactive data science web application using Streamlit, a python library. I've extracted the required data from the website using web scraping. I've developed different kinds of dynamic visualizations using the data to observe how the data is changing from time to time and I've deployed the app using Heroku. You can find the link to this application in my resume.
+                        <br/><br/>Adapting to various work cultures, identifying and resolving bottlenecks, and prioritizing have been striking features of my working style. In addition to the above, I strongly believe in learning and sharing my knowledge with my colleagues. “Knowledge parted is knowledge gained” has been my motto in life. I am keen to learn and am sharp at identifying and solving problems.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4 order-md-1 d-none d-md-block">
+                    <img src="images/Ramya.jpeg" class="about-me-section-image" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skill-section-bg-container pb-5" id="skill-section">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 ">
+                    <p class="skill-section-main-heading">Skills:</p>
+                </div>
+                <div class="col-6  mb-3 col-md-3">
+                    <div class="skill-section-image shadow pt-2 text-center">
+                        <i class="fa-brands fa-html5 fa-8x"></i>
+                        <h1 class="skill-head">HTML5</h1>
+                    </div>
+                </div>
+                <div class="col-6 mb-3 col-md-3">
+                    <div class="skill-section-image shadow pt-2 text-center">
+                        <i class="fa-brands fa-css3-alt fa-8x"></i>
+                        <h1 class="skill-head">CSS</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skill-section-image shadow pt-2 text-center">
+                        <i class="fa-brands fa-bootstrap fa-8x"></i>
+                        <h1 class="skill-head">Bootstrap</h1>
+                    </div>
+                </div>
+                <div class="col-6  mb-3 col-md-3">
+                    <div class="skill-section-image pt-2 shadow text-center">
+                        <i class="fa-brands fa-js fa-8x"></i>
+                        <h1 class="skill-head">Javascript</h1>
+                    </div>
+                </div>
+                <div class="col-6  mb-3 col-md-3">
+                    <div class="skill-section-image pt-2 shadow text-center">
+                        <i class="fa-brands fa-python fa-8x"></i>
+                        <h1 class="skill-head">Python</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="skill-section-image pt-2 shadow text-center">
+                        <i class="fa-brands fa-java fa-8x"></i>
+                        <h1 class="skill-head">Java</h1>
+                    </div>
+                </div>
+                <div class="col-6  mb-3 col-md-3">
+                    <div class="skill-section-image pt-2 shadow text-center">
+                        <i class="fa-brands fa-aws fa-8x"></i>
+                        <h1 class="skill-head">AWS</h1>
+                    </div>
+                </div>
+                <div class="col-6  mb-3 col-md-3">
+                    <div class="skill-section-image pt-2 shadow text-center">
+                        <i class="fa-brands fa-react fa-8x"></i>
+                        <h1 class="skill-head">ReactJS</h1>
+                    </div>
+                </div>
+                <div class="col-6  mb-3 col-md-3">
+                    <div class="skill-section-image pt-2 shadow text-center">
+                        <i class="fa-solid fa-database fa-8x"></i>
+                        <h1 class="skill-head">MySQL</h1>
+                    </div>
+                </div>
+                <div class="col-6  mb-3 col-md-3">
+                    <div class="skill-section-image pt-2 shadow text-center">
+                        <img src="mongodb.svg" class="skill-section-image-mongo "/>
+                        <h1 class="skill-head">MongoDB</h1>
+                    </div>
+                </div>
+                <div class="col-6  mb-3 col-md-3">
+                    <div class="skill-section-image pt-2 shadow text-center">
+                        <i class="fa-solid fa-server fa-8x"></i>
+                        <h1 class="skill-head">Express Server</h1>
+                    </div>
+                </div>
+                <div class="col-6  mb-3 col-md-3">
+                    <div class="skill-section-image pt-2 shadow text-center">
+                        <i class="fa-brands fa-node fa-8x"></i>
+                        <h1 class="skill-head">NodeJS</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-section-bg-container" id="project-section">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-12">
+                    <p class="project-section-main-heading">Projects</p>
+                    <h1 class="project-section-sub-heading">Here are some of my personal projects</h1>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <img src="images/crypto_image.jpeg" class="project-section-card-image" />
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Data Science Web Application</p>
+                            <h1 class="project-section-card-mainheading">Crypto Currency Web App</h1>
+                            <p class="project-section-card-content">Crypto Currency Web App is a simple data science application that is used to visualize the trends in....</p>
+                            <a href="#" class="project-section-card-read-more" data-toggle="modal" data-target="#cryptoModal">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg></a>
+                            <div class="modal" id="cryptoModal" tabindex="-1" aria-labelledby="cryptoModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title thanking-customers-section-modal-title" id="cryptoModalLabel">
+                                            Crypto Currency Web App
+                                          </h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="modal-para-content">Crypto Currency Web App is a simple data science application that is used to visualize the trends in crypto currency. I have built this app in google cloud shell with streamlit python library. I have used web scraping to extract the required data from the website. I have developed 4 different types of visualizations like bar chart, pie plot using this data and I finally deployed this application in Heroku.</p>
+                                            <a href="https://github.com/SaiRamyaKamali/Data-Science-Web-Application" target=_blank class="project-section-card-read-more ">View Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                            <br/>
+                                            <a href="https://datavisualisationapp.herokuapp.com/" class="project-section-card-read-more " target="_blank">View Application <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary modal-close-button" data-dismiss="modal">
+                                            Close
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <img src="images/wikipedia_search_image.jpeg" class="project-section-card-image" />
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Search Application</p>
+                            <h1 class="project-section-card-mainheading">Wikipedia Search Application</h1>
+                            <p class="project-section-card-content">This wikipedia search application enables a user to search and view curated results....</p>
+                            <a href="#" class="project-section-card-read-more" data-toggle="modal" data-target="#wikiModal">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg></a>
+                            <div class="modal" id="wikiModal" tabindex="-1" aria-labelledby="wikiModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title thanking-customers-section-modal-title" id="wikiModalLabel">
+                                            Wikipedia Search Application
+                                          </h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="modal-para-content">This wikipedia search application enables a user to search and view curated results and when you click on a specific result it will redirect you to the wikipedia page. Used HTML list elements with hyperlink as URL, styled list using    
+                                                CSS, Bootstrap, and implemented responsiveness using Flex properties and CSS Box model. Fetched search results from the server asynchronously using fetch - GET HTTP API call. When a user 
+                                                clicks on a particular result, the page opens in a new tab by using the target attribute for the anchor tag in HTML.
+                                            </p>
+                                            <a href="https://github.com/SaiRamyaKamali/SaiRamyaKamali.github.io/tree/main/wikiapp" target=_blank class="project-section-card-read-more ">View Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                            <br/>
+                                            <a href="https://sairamyakamali.github.io/wikiapp/" target=_blank class="project-section-card-read-more">View Application <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary modal-close-button" data-dismiss="modal">
+                                            Close
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <img src="images/Todo_List_image.jpeg" class="project-section-card-image" />
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Javascript Todos Web Application</p>
+                            <h1 class="project-section-card-mainheading">Todo App</h1>
+                            <p class="project-section-card-content">This Todo application enables user to maintain and keep track of the list of tasks that they have to do....</p>
+                            <a href="#" class="project-section-card-read-more" data-toggle="modal" data-target="#todoModal">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg></a>
+                            <div class="modal" id="todoModal" tabindex="-1" aria-labelledby="todoModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title thanking-customers-section-modal-title" id="todoModalLabel">
+                                            Todo App
+                                          </h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="modal-para-content">This Todo application enables user to maintain and keep track of the list of tasks that they have to do. A user can add more tasks at any time and delete a task that is completed. 
+                                                I developed this application with CRUD operations to track the list of tasks.I have implemented todo crud operations by using JavaScript event listeners and updated UI dynamically 
+                                                by using JavaScript DOM operations.I used Arrays, Objects, and their methods during todo list CRUD Operations and persisted the todo list state 
+                                                on page reloads using local storage methods. I have styled the list using CSS and bootstrap.
+                                            </p>
+                                            <a href="https://github.com/SaiRamyaKamali/SaiRamyaKamali.github.io/tree/main/todoapp" target=_blank class="project-section-card-read-more ">View Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                            <br/>
+                                            <a href="https://sairamyakamali.github.io/todoapp/" target=_blank class="project-section-card-read-more ">View Application <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary modal-close-button" data-dismiss="modal">
+                                            Close
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <img src="images/food_munch_image.jpeg" class="project-section-card-image" />
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Responsive Web Application</p>
+                            <h1 class="project-section-card-mainheading">Food Munch</h1>
+                            <p class="project-section-card-content">Food Munch is a simple static responsive web application that can be used to order food from a restaurant....</p>
+                            <a href="#" class="project-section-card-read-more" data-toggle="modal" data-target="#foodmunchModal">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg></a>
+                            <div class="modal" id="foodmunchModal" tabindex="-1" aria-labelledby="foodmunchModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title thanking-customers-section-modal-title" id="foodmunchModalLabel">
+                                            Food Munch
+                                          </h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="modal-para-content">Food Munch is a simple static responsive web application that can be used to order food from a restaurant. I designed the page using HTML structure elements like li, header, article, footer elements, 
+                                                and bootstrap flex components to show different sections in the website and different bootstrap 
+                                                classes for responsiveness so that it can adapt to screens of different sizes through the mobile-first approach. Implemented product youtube videos by using bootstrap embed and model components.
+                                            </p>
+                                            <a href="https://github.com/SaiRamyaKamali/SaiRamyaKamali.github.io/tree/main/foodmunch" target=_blank class="project-section-card-read-more ">View Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                            <br/>
+                                            <a href="https://sairamyakamali.github.io/foodmunch/" class="project-section-card-read-more " target=_blank>View Application <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary modal-close-button" data-dismiss="modal">
+                                            Close
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <img src="images/ecommerce_image.jpeg" class="project-section-card-image" />
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Responsive Web Application</p>
+                            <h1 class="project-section-card-mainheading">E-commerce Website</h1>
+                            <p class="project-section-card-content">This is a simple static responsive web application which can be used to buy products. We can build this futher....</p>
+                            <a href="#" class="project-section-card-read-more" data-toggle="modal" data-target="#ecommerceModal">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg></a>
+                            <div class="modal" id="ecommerceModal" tabindex="-1" aria-labelledby="ecommerceModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title thanking-customers-section-modal-title" id="ecommerceModalLabel">
+                                            E-commerce Website
+                                          </h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="modal-para-content">This is a simple static responsive web application which can be used to buy products. We can build this futher to process the orders,make payments etc. I have used bootstrap flex-box properties and box-model for responsiveness so that it can adapt to screens of different sizes through mobile first approach.</p>
+                                            <a href="https://github.com/SaiRamyaKamali/SaiRamyaKamali.github.io/tree/main/ecommerce" target=_blank class="project-section-card-read-more">View Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                            <br/>
+                                            <a href="https://sairamyakamali.github.io/ecommerce/" target=_blank class="project-section-card-read-more ">View Application <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary modal-close-button" data-dismiss="modal">
+                                            Close
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <img src="images/Tourism_image.jpeg" class="project-section-card-image" />
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Static Web Application</p>
+                            <h1 class="project-section-card-mainheading">Tourism website</h1>
+                            <p class="project-section-card-content">This tourism website enables users to browse through the content, videos and images of popular destinations....</p>
+                            <a href="#" class="project-section-card-read-more" data-toggle="modal" data-target="#tourismModal">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg></a>
+                            <div class="modal" id="tourismModal" tabindex="-1" aria-labelledby="tourismModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-5">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h5 class="modal-title thanking-customers-section-modal-title" id="tourismModalLabel">
+                                            Tourism website
+                                          </h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="modal-para-content">This tourism website enables users to browse through the content, videos and images of popular destinations. This is a simple static website and it is implemented with mobile friendly layout using different HTML block, inline elements, and Styled using CSS3    
+                                                properties such as background, flex, and CSS box model properties. I have implemented multiple images of a particular destination in a carousel using bootstrap carousel and virtual    
+                                                tour videos using bootstrap embed component.                                          
+                                            </p>
+                                            <a href="https://github.com/SaiRamyaKamali/SaiRamyaKamali.github.io/tree/main/tourism" target=_blank class="project-section-card-read-more ">View Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                            <br/>
+                                            <a href="https://sairamyakamali.github.io/tourism/" target=_blank class="project-section-card-read-more">View Application <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                            </svg></a>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-secondary modal-close-button" data-dismiss="modal">
+                                            Close
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <h1 class="project-section-sub-heading">Academic Projects</h1>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Natural Language Processing</p>
+                            <h1 class="project-section-card-mainheading">Explore Bias in Knowledge Distilled Model</h1>
+                            <p class="project-section-card-content">explored the hypothesis that Knowledge distilled smaller models will have biases amplified
+                                compared to the source model, by taking a dif-
+                                ferent variant of distill model of Bert called
+                                TinyBERT.</p>
+                            <p class="project-section-card-read-more">November 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Data Mining and Analysis</p>
+                            <h1 class="project-section-card-mainheading">Page Ranking and Item Set Mining</h1>
+                            <p class="project-section-card-content">Implemented page rank algorithm using Spark and GraphFrames. Used itemset mining on MovieLens data to find out frequent item sets and association rule</p>
+                            <p class="project-section-card-read-more">March 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Deep Learning</p>
+                            <h1 class="project-section-card-mainheading">Image classification with PyTorch</h1>
+                            <p class="project-section-card-content">Classified CIFAR 10 datasets using ResNets and DenseNets and an accuracy of 91%</p>
+                            <p class="project-section-card-read-more">September 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Machine Learning</p>
+                            <h1 class="project-section-card-mainheading">Post Disaster Damage Assessment of buildings</h1>
+                            <p class="project-section-card-content">Classified Satellite images of damaged and undamaged buildings using rotation, size, translation invariant feature extraction techniques, and machine learning-based classifiers by extracting features of 1964 images of various classes.
+                                Carried entire work on GNU octave 5.2.0 and analyzed performance of different classifiers. 
+                                Achieved an accuracy of 80% with a random forest classifier.</p>
+                            <p class="project-section-card-read-more">June 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Flutter</p>
+                            <h1 class="project-section-card-mainheading">Health and Fitness mobile application using Flutter</h1>
+                            <p class="project-section-card-content">Developed a health and fitness Mobile application using flutter.
+                                The application has different features like sleep tracking, water intake tracking and provide healthy recipes.
+                                It considers gender preferences and aims at providing distinctive features for men and women.
+                                It takes input of user’s health history and current health issues and recommends diet plans accordingly</p>
+                            <p class="project-section-card-read-more">May 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Web Development</p>
+                            <h1 class="project-section-card-mainheading">FULL STACK WEB DEVELOPMENT WITH REACT</h1>
+                            <p class="project-section-card-content">Designed and developed a restaurant web application through React-Native, MongoDB, and Express Server.
+                            <p class="project-section-card-read-more">Aug 2020</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-5">
+                    <div class="project-section-card shadow">
+                        <div class="proj-card-text p-4">
+                            <p class="project-section-card-subheading">Machine Learning</p>
+                            <h1 class="project-section-card-mainheading">Skin Lesion Classification using convolutional neural networks</h1>
+                            <p class="project-section-card-content">Built and deployed a skin lesion classification model with Keras 2.3.0 and Tensorflow JS 2.0. 
+                                Classified 7 different categories of skin lesions using Convolutional Neural networks. 
+                                Trained model on HAM10000 dataset.
+                                Achieved an accuracy of 85% on lab images after 20 epochs.</p>
+                            <p class="project-section-card-read-more">Jul 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>                  
+        </div>
+    </div>
+    <div class="Experience-section" id="experience-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="testimonials-para mt-3">Experience</h1>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carou-card p-4">
+                                    <p class="project-section-card-subheading">Texas A&M University</p>
+                                    <h1 class="project-section-card-mainheading">Web Developer</h1>
+                                    <p class="para">Redesigned, Developed, and maintained departmental web pages within the Cascade Content management system(CMS), and resolved website
+                                        issues.Monitored and analyzed web-related statistics;identified trends in the website and types of services requested.
+                                        Created and assisted with the development of 3 official university sponsored websites.
+                                        Developed user interfaces with modern JavaScript frameworks, HTML5, CSS3 and Bootstrap which improved user satisfaction by 31%. Enhanced the UI to be more user friendly which increased the DAU by 25%.
+                                        Created accessible, responsive and functional user interfaces to allow users to have the perfect user experience on any device.
+                                    </P>
+                                    <p class="project-section-card-read-more">Aug 2022 - Current</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carou-card p-4">
+                                    <p class="project-section-card-subheading">Tech Mahindra</p>
+                                    <h1 class="project-section-card-mainheading">Software Engineer</h1>
+                                    <p class="para">Hosted a static website on AWS with Security socket layer (SSL) using Amazon S3 bucket, CloudFront, Route 53, and certificate manager;added a continuous integration and Development (CI/CD) pipeline to the S3 bucket with Amazon S3, code pipeline, and CodeStar.
+                                        Launched 5 Serverless web applications using AWS amplify, amazon Cognito, amazon API gateway, AWS lambda, and DynamoDB.
+                                        Migrated 300+TB of data spread over multiple locations with AWS storage gateway and AWS direct connect. Speeded the migration process by 2% by using the combination of two services and the throughput was optimized both internally and externally to achieve the time frame given.
+                                    </P>
+                                    <p class="project-section-card-read-more">Jan 2021 - Jun 2021</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carou-card p-4">
+                                    <p class="project-section-card-subheading">Manipal Institute of Technology</p>
+                                    <h1 class="project-section-card-mainheading">Research Intern</h1>
+                                    <p class="para">Built and deployed a skin lesion classification model with Keras 2.3.0 and Tensorflow JS 2.0; Trained model on HAM10000 dataset.
+                                        Classified 7 different categories of skin lesions using Convolutional Neural networks; Achieved an accuracy of 85% on lab images after 20 epochs.
+                                    </P>
+                                    <p class="project-section-card-read-more">May 2019 - Jul 2019</p>
+                                </div>
+                            </div>
+                            
+                           
+                        </div>
+                        <div class="text-right mt-3">
+                            <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section" id="footer-section">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="d-flex flex-row justify-content-start">
+                        <img src="images/Ramya_pro_pic.jpeg" class="footer-image">
+                        <div class="text ml-3">
+                            <p class="footer-text">Ramya</p>
+                            <p class="footer-sub-text"><a href="https://www.linkedin.com/in/sai-ramya-kamali/" target="_blank">LinkedIn</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="footer-text">Phone No.</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <i class="fa-solid fa-phone icon"></i>
+                        <p class="footer-sub-text ml-3"><a href="tel:5554280940" target="_blank">9797397613</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="footer-text">E-mail</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <i class="fa-solid fa-envelope icon icon-bg"></i>
+                        <p class="footer-sub-text ml-3"><a href="mailto:bandla_kamali@tamu.edu" target="_blank">bandla_kamali@tamu.edu</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <p class="footer-text">Address</p>
+                    <div class="d-flex flex-row justify-content-start">
+                        <i class="fa-solid fa-map-location-dot icon"></i>
+                        <p class="footer-sub-text ml-3"><a href="http://maps.google.com/?q=1800 Holleman Drive, college Station, Texas, 77840" target="_blank">1800 Holleman Drive, #512, College Station, Texas</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
