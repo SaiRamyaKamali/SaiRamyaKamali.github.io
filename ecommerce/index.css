@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.nav-bar-logo {
+    width: 150px;
+    height:56px;
+}
+
+
+.services-heading {
+    font-weight: bold;
+}
+
+.services-para {
+    color: #7b8794;
+}
+
+.service-card-image {
+    width: 90px;
+}
+
+.service-card-head {
+    font-size: 25px;
+}
+
+.service-card-para {
+    font-size: 18px;
+    color: #616c7c;
+}
+
+.products-card {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.products-card-head {
+    color: white;
+    font-size: 32px;
+}
+
+.products-card-para {
+    color: white;
+}
+
+.products-button {
+    color: #ff9f00;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    width: 130px;
+    padding: 10px;
+}
+
+.products-button-modal {
+    border: 1px solid;
+}
+
+.products-card-laptop {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.products-link {
+    color: #ff9f00;
+}
+
+.arrow-color {
+    color: #ff9f00;
+}
+
+.offers-section {
+    padding-top:30px;
+    padding-bottom:30px;
+    background-image: linear-gradient(to right, #f49541, #dd5d97);
+    width:100%;
+
+}
+
+.offers-image {
+   width:100%
+}
+
+.offers-head {
+    color: #ad2167;
+}
+
+.offers-para {
+    color: white;
+    font-size: 28px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.treding-blog-image {
+    width: 100%;
+}
+
+.trending-blog-subhead {
+    color: #959ead;
+}
+
+.trending-blog-head {
+    font-size: 28px;
+}
+
+.trending-blog-para {
+    color: #959ead;
+}
+
+.trending-blog-link {
+    color: #ff9f00;
+}
+
+
+.card-heading {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-image-es {
+    width: 100%;
+    border-radius: 25%;
+}
+
+.card-text-es {
+    font-size: 18px;
+}
+
+.es-link {
+    color: #ff9f00;
+}
+
+.card-image-es-2 {
+    border-radius: 8%;
+    width: 100%;
+}
+
+.contact-button {
+    border: 2px solid #ff9f00;
+    background-color: white;
+    color: #ff9f00;
+    padding: 10px;
+}
+
+.footer-image {
+    width: 220px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-icon {
+    color: #5a7184;
+    background-color: #152c3e;
+    border-radius: 100%;
+    padding: 12px;
+}
+
+.footer-address {
+    color: gray;
+}
+
+.footer-heading {
+    color: #5a7184;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-heading-2 {
+    font-weight: normal;
+    color: #5a7184;
+    font-size: 16px;
+}
+
+.footer-text {
+    color: #5a7184;
+}
+
+.footer-hr {
+    border-color: #5a7184;
+}
